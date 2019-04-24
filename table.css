@@ -1,0 +1,73 @@
+
+table{
+    margin-left:140px;
+    margin-top:80px;
+    width:80%;
+  }
+body{
+    background-image:url(kota.jpg);
+    background-size:cover;
+    background-repeat:no-repeat;
+}
+.judul{
+  color: #000;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 15px;
+}
+table{border-collapse: collapse;}
+  td,th {
+    width: 100px;
+    height: 30px;
+    color: white;
+    text-align:center;
+    }
+
+.atas{
+  background-color: #DEB887;
+}
+.table{
+  table-border: white;
+  width: 100%;
+  margin-top: 20px;
+  border-collapse: collapse;
+  background: #fff;
+  box-shadow: #000;
+}
+
+.table th, .table td{
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+.Aksi{
+  display: inline-block;;
+  max-width: 150px;
+  padding: 15px 30px;
+  color: #fff;
+  text-decoration: none;
+  background: #000;
+  cursor: pointer;
+}
+
+.table th{
+  background: #eee;
+}
+
+.tombol{
+  margin-top: 10px;
+  border-radius: 10px;
+  display: inline-block;
+  max-width: 150px;
+  padding: 15px 30px;
+  color: #000;
+  text-decoration: none;
+  background: #fff;
+  cursor: pointer;
+}
+
+.tombol, .tombol{
+  padding: 10px 15px;
+  font-size: 12px;
+}
+.tombol .hapus{
+  background: #fc4c4c;
+}
